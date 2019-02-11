@@ -62,8 +62,6 @@ public class Person implements ReadOnlyPerson {
         return new HashSet<>(tags);
     }
 
-    public int countTags() { return getTags().size(); }
-
     /**
      * Replaces this person's tags with the tags in the argument tag set.
      */
