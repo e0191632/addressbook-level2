@@ -297,6 +297,15 @@
 || 
 || 0 persons listed!
 || ===================================================
+|| Enter command: || [Command entered:  countTags]
+|| Count Number of Unique Tags: 0
+|| ===================================================
+|| Enter command: || [Command entered:  add Rachel Tan p/111111 e/rachel@gmail.com a/111, rachel street t/friend]
+|| New person added: Rachel Tan Phone: 111111 Email: rachel@gmail.com Address: 111, rachel street Tags: [friend]
+|| ===================================================
+|| Enter command: || [Command entered:  countTags]
+|| Count Number of Unique Tags: 1
+|| ===================================================
 || Enter command: || [Command entered:  exit]
 || Exiting Address Book as requested ...
 || ===================================================

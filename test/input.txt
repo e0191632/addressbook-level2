@@ -149,6 +149,17 @@
   list
 
 ##########################################################
+# test countTags command
+##########################################################
+
+  # should return 0
+  countTags
+
+  # should return 1
+  add Rachel Tan p/111111 e/rachel@gmail.com a/111, rachel street t/friend
+  countTags
+
+##########################################################
 # test exit command
 ##########################################################
 
