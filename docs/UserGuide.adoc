@@ -37,7 +37,7 @@ What's different from AddressBook-Level1:
 * Support for storing address (`a/`) and tags (`t/`)
 * Support for marking a contact detail as 'private' (`pa/`) (`pe/`) (`pp/`)
 * View details of a person (`view` : shows non-private details), (`viewall` : shows all details)
-
+* Check the number of unique tags (using the command `countTag`)
 == Viewing help : `help`
 
 Format: `help`
@@ -155,6 +155,12 @@ Views all details of the 1st person in the results of the `find` command.
 
 Clears all entries from the address book. +
 Format: `clear`
+
+== Count the number of entries : `countTags`
+
+Check how many unique tags stored in the address book.
+Format: `countTag`
+
 
 == Exiting the program : `exit`
 
