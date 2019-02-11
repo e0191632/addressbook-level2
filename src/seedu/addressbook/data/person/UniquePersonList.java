@@ -9,7 +9,7 @@ import java.util.List;
 
 import seedu.addressbook.common.Utils;
 import seedu.addressbook.data.exception.DuplicateDataException;
-
+import seedu.addressbook.data.tag.Tag;
 
 
 /**
@@ -120,6 +120,10 @@ public class UniquePersonList implements Iterable<Person> {
         if (!personFoundAndDeleted) {
             throw new PersonNotFoundException();
         }
+    }
+
+    public int countTags() {
+        return Tag.getCount();
     }
 
     /**
