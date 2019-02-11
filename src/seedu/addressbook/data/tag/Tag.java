@@ -10,6 +10,7 @@ public class Tag {
 
     public static final String MESSAGE_TAG_CONSTRAINTS = "Tags names should be alphanumeric";
     public static final String TAG_VALIDATION_REGEX = "\\p{Alnum}+";
+    private static int count;
 
     public final String tagName;
 
@@ -24,6 +25,11 @@ public class Tag {
             throw new IllegalValueException(MESSAGE_TAG_CONSTRAINTS);
         }
         this.tagName = trimmedName;
+        this.count++;
+    }
+
+    public static int getCount() {
+        return count;
     }
 
     /**
