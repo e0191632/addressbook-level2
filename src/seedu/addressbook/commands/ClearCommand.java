@@ -1,5 +1,7 @@
 package seedu.addressbook.commands;
 
+import seedu.addressbook.data.tag.Tag;
+
 /**
  * Clears the address book.
  */
@@ -14,6 +16,7 @@ public class ClearCommand extends Command {
     @Override
     public CommandResult execute() {
         addressBook.clear();
+        Tag.setCount();
         return new CommandResult(MESSAGE_SUCCESS);
     }
 }

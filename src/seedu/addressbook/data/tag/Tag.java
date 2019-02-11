@@ -28,6 +28,8 @@ public class Tag {
         this.count++;
     }
 
+    public static void setCount() { count = 0; }
+
     public static int getCount() {
         return count;
     }
